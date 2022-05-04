@@ -10,6 +10,9 @@ function typeWrite(elemento){
   });
 }
 
+const desc1 = document.querySelector('.home__description');
+typeWrite(desc1);
+
 const navMenu = document.getElementById('nav-menu'),
       navToggle = document.getElementById('nav-toggle'),
       navClose = document.getElementById('nav-close')
